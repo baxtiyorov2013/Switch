@@ -1,26 +1,26 @@
-let day = Number(prompt("Birdan 7 gacha son kriting"))
+let day = Number(prompt("Noldan 7 gacha son kriting"))
 let dayName;
 
 switch (day) {
-    case 1:
+    case 0:
         dayName = "Sunday"
         break;
-    case 2:
+    case 1:
         dayName = "Monday"
         break;
-    case 3:
+    case 2:
         dayName = "Tuesday"
         break;
-    case 4:
+    case 3:
         dayName = "Wednesday"
         break;
-    case 5:
+    case 4:
         dayName = "Thursday"
         break;
-    case 6:
+    case 5:
         dayName = "Firday"
         break;
-    case 7:
+    case 6:
         dayName = "Saturday"
         break;
     default:
